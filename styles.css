@@ -46,7 +46,7 @@ nav ul li a {
 }
 /* Navigation link hover effect */
 nav ul li a:hover {
-    background-color: #c1c1c1; /* Darker blue on hover */
+    background-color: #c1c1c1; /* Light gray background on hover */
     color: #ffffff; /* Ensure text remains white */
 
 }
@@ -60,12 +60,38 @@ main section {
     border: 1px solid #cccccc;
     border-radius: 8px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Smooth scaling effect */
 }
 /* Section h2 */
 main section h2 {
     color: #000000;
 }
-
+main section:hover{
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+caption{
+    font-size:1.04em;
+    color: #000000;
+    font-weight: bold;
+}
+/*table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td{
+    border: 1px solid #999999;
+    padding: 12px;
+    text-align: center;
+}
+thead{
+    background-color: #000000;
+    color: #ffffff;
+}
+tfoot{
+    background-color: #f2f2f2;
+}
 /* Footer styles */
 footer {
     font-size: 0.9em;
