@@ -22,6 +22,27 @@ header h1 {
 }
 
 /* Navigation styles */
+.nav-flex{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the navigation */
+    gap:20px;
+    background-color: #1976d2; /* Black background */
+}
+.nav-flex li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 10px 15px;
+    display: block; /* Make the link fill the li */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+.nav-flex li a:hover{
+    background-color: #0d47a1
+
+}
+/*Styling from week 3*/
 nav ul{
     list-style-type: none;
     padding: 0;
@@ -52,8 +73,18 @@ nav ul li a:hover {
 }
 
 /* Main content styles */
+.main-flex{
+    display:flex;
+    flex-direction: column; /* Stack sections vertically */
+    gap: 30px;
+    padding: 20px;
+}
+
+
+/* week 3 section styles */
 main section {
     margin: 30px auto;
+    width: 45%;
     padding: 20px;
     max-width: 800px;
     background-color: #ffffff;
@@ -76,9 +107,12 @@ caption{
 }
 /*table styles */
 table {
-    width: 100%;
+    width: 100% ;
     border-collapse: collapse;
     margin-top: 20px;
+    
+
+    
 }
 th, td{
     border: 1px solid #999999;
@@ -92,6 +126,38 @@ thead{
 tfoot{
     background-color: #f2f2f2;
 }
+
+/*Contact form styles */
+.form-flex{
+    display:flex;
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 10px; /* Space between form elements */
+
+}
+imnput[type="text"],input[type="email"],textarea{
+    
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease; 
+}
+input:focus,textarea:focus{
+    border-color: #1565c0; /* Change border color on focus */
+    
+}
+input[type="submit"]{
+    background-color: #1565c0; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+input[type="submit"]:hover{
+    background-color: #0d47a1; /* Darker blue on hover */
+}
 /* Footer styles */
 footer {
     font-size: 0.9em;
@@ -102,3 +168,25 @@ footer {
     margin-top:40px;
    
 }
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .main-flex {
+        flex-direction: column; 
+        
+    }
+}
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+        .main-flex {
+            flex-direction: column; /* Change to row layout for medium screens */
+        }
+    }
+
+    @media screen and (min-width: 1025px) {
+        .main-flex {
+            flex-direction: row; /* Change to row layout for larger screens */
+            justify-content: center; /* Space out sections */
+            flex-wrap: wrap;
+        }
+        
+    } 
