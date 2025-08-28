@@ -41,6 +41,8 @@ Instructions on how to set up your project locally. Include any prerequisites an
 1. Clone the repository: `(https://github.com/UBSDFS/ECPI-SDC260.git)'
 2. Open `index.html` in your web browser.
 
+<img width="1792" height="1114" alt="Screenshot 2025-08-28 at 11 34 47 AM" src="https://github.com/user-attachments/assets/dc451850-8428-4553-9b5e-e10f92b68ab9" />
+
 ## Usage
 
 THe site serves a personal portfolio site. Visitors can:
