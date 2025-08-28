@@ -1,6 +1,6 @@
 # ECPI-SDC260
 Course Work
-# Project Title
+# Portfolio Website
 
 A brief description of your project and what it aims to achieve.
 
@@ -32,30 +32,30 @@ Provide a more detailed explanation of your project. What inspired you to create
 Outline the technologies you used to build your website:
 - HTML5
 - CSS3
-- Xamp- for hosting
+- Xampp- for hosting
 
 
 ## Installation
 
 Instructions on how to set up your project locally. Include any prerequisites and step-by-step installation instructions. For example:
-1. Clone the repository: ``
+1. Clone the repository: `(https://github.com/UBSDFS/ECPI-SDC260.git)'
 2. Open `index.html` in your web browser.
 
 ## Usage
 
-Provide examples of how to use your website. You can include screenshots or code snippets if necessary.
+THe site serves a personal portfolio site. Visitors can:
+learn about the developer
+View curerent project and descriptions
+Contact the developer 
 
 ## Contributing
 
-If you welcome contributions, explain how others can contribute to your project. This could include:
-- Forking the repository
-- Making changes
-- Submitting pull requests
+Open for feedback and improvements. Contect the developer via email provided below. 
 
 ## License
 
-Specify the license under which your project is distributed (e.g., MIT License, GPL). If you haven't chosen a license yet, you can mention that.
+This project is currently unlicensed. 
 
 ## Contact
 
-Provide your contact information or links to your social media profiles for users to reach out with questions or feedback.
+Email: ulysseburdeniii@gmail.com
